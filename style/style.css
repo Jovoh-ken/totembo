@@ -1,0 +1,494 @@
+@import url(./fonts.css);
+
+
+:root {
+    --mb: "Montserrat-Bold";
+    --mr: "Montserrat-Regular";
+    --dark: rgba(50, 50, 50, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1296px;
+    width: 100%;
+    /* padding: 0 15px; */
+    margin: 0 auto;
+}
+
+/* UNIVERSAL_CODE */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: var(--mr);
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 2.2px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--dark);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* NAVBAR_QISMI */
+.nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+}
+
+
+.nav_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_left {
+    display: flex;
+    gap: 50px;
+
+}
+
+.nav_list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav_logo,
+.footer_logo {
+    font-family: var(--mb);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--dark);
+}
+
+.nav_link,
+.footer_link {
+    font-family: var(--mr);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--dark);
+    opacity: 0.9;
+}
+
+.nav_link:hover {
+    opacity: 1;
+}
+
+
+.nav_right {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.nav_right_lng {
+    font-family: var(--mr);
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.nav_right img {
+    width: 25px;
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.nav_right li:hover img {
+    filter: brightness(0) saturate(100%);
+    filter: drop-shadow(0px 0px 1px black);
+    transform: scale(1);
+}
+
+
+
+/* MAIN_QISMI */
+.section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+.section_box:nth-child(2) {
+    grid-row: span 2;
+}
+
+.section_box {
+    background-color: rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    width: 526px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    box-shadow: 6px 6px 15px 0px rgba(132, 132, 132, 0.3);
+}
+
+
+.section_box:hover .catalog_sale {
+    background-color: black;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.box2 {
+    height: 100%;
+    width: 735px;
+}
+
+.box2 h1 {
+    font-size: 22px;
+}
+
+.section_box:nth-child(3) {
+    padding-left: 60px;
+    gap: 10px;
+}
+
+.watch_section {
+    height: 170px;
+}
+
+
+.watch_section_2 {
+    height: 170px;
+}
+
+.text_watch_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.section_text {
+    font-family: var(--mr);
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--dark);
+    opacity: 0.9;
+}
+
+.section_title {
+    font-family: var(--mb);
+    font-size: 15px;
+    line-height: 100%;
+    text-transform: uppercase;
+
+}
+
+.catalog_sale {
+    background-color: var(--dark);
+    border-radius: 10px;
+    font-family: var(--mr);
+    font-size: 22px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #fff;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    left: 22px;
+}
+
+
+
+/* SALES_QISMI */
+.sales {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.sales_catalog {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.sale_box {
+    background-color: rgba(225, 225, 225, 1);
+    width: 410px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px 0px rgba(132, 132, 132, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    margin-bottom: 40px;
+
+}
+
+.sale_box:hover span {
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.sale_box_tx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sale_box_tx_text {
+    font-family: var(--mr);
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--dark);
+}
+
+.sale_box_tx_title {
+    font-family: var(--mb);
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+}
+
+
+
+
+.sale_on span {
+    position: absolute;
+    display: flex;
+    left: 20px;
+    top: 20px;
+    background-color: var(--dark);
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: var(--mr);
+    font-size: 20px;
+}
+
+.sale_on_right {
+    position: absolute;
+    right: 19px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sale_on_box_img {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 16px 16px;
+}
+
+.catalog_sales_bottom_title {
+    font-family: var(--mr);
+    font-size: 30px;
+    line-height: 100%;
+    color: var(--dark);
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* NEWS_QISMI */
+
+.news_box {
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.news_box_left {
+    background-image: url(../img/men_watch.png);
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 636px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.news_box_left_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    transition: 0.5s;
+}
+
+
+.news_box_left_box_title {
+    font-family: var(--mb);
+    font-size: 22px;
+    line-height: 100%;
+    font-variant: small-caps;
+    color: #fff;
+    width: 466px;
+}
+
+.news_box_left_box_text {
+    font-family: var(--mr);
+    font-size: 18px;
+    line-height: 22px;
+    font-variant: small-caps;
+    color: #fff;
+    width: 462px;
+}
+
+.news_box_left span {
+    position: absolute;
+    background-color: white;
+    font-family: var(--mr);
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--dark);
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.news_box_left:hover span {
+    background-color: black;
+    color: #fff;
+    box-shadow: 6px 10px 15px 2px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+
+}
+
+.news_left_ul {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--mr);
+    font-size: 16px;
+    line-height: 100%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #fff;
+    width: 170px;
+}
+
+.news_box_left:nth-child(2) {
+    background-image: url(../img/watchs.png);
+}
+
+
+
+/* FOOTER_QISMI */
+
+footer {
+    background-color: var(--dark);
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_box {
+    display: flex;
+    gap: 219px;
+}
+
+.footer_logo {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer_link {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.footer_link:hover {
+    opacity: 1;
+}
+
+.footer_list,
+.footer_list_top,
+.footer_list_last {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer_top {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.footer_top_link {
+    font-family: var(--mr);
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.email_footer {
+    font-family: var(--mr);
+    font-size: 18px;
+    line-height: 100%;
+    vertical-align: middle;
+    font-variant: small-caps;
+
+}
+
+.footer_list_bottom_bottom {
+    display: flex;
+    gap: 26px;
+}
+
+.footer_list_last {
+    display: flex;
+    gap: 40px
+}
