@@ -156,9 +156,11 @@
 
     .mobile_desktop {
         width: 100%;
-     background: rgba(0, 0, 0, 0.6); /* qora yarim shaffof */
-      backdrop-filter: blur(12px); /* orqa fonni hira qiladi */
-      -webkit-backdrop-filter: blur(12px);
+        background: rgba(0, 0, 0, 0.6);
+        /* qora yarim shaffof */
+        backdrop-filter: blur(12px);
+        /* orqa fonni hira qiladi */
+        -webkit-backdrop-filter: blur(12px);
         justify-content: space-between;
         padding: 10px 15px;
         z-index: 99;
@@ -199,12 +201,21 @@
     }
 
     .nav_mobile_right {
-        gap: 10px;
+        gap: 15px;
     }
 
     .nav_logo,
     .footer_logo {
-        font-size: 23px;
+        font-size: 20px;
+    }
+
+    .nav_right_lng {
+        font-size: 14px;
+       padding-bottom: 3px;
+    }
+
+    .nav_mobile_right img {
+        width: 17px;
     }
 
     /* MOBILE_DESTKOP */
