@@ -41,6 +41,14 @@ a {
     padding-bottom: 30px;
 }
 
+.nav_box ul:nth-of-type(2){
+    display: none;
+}
+
+.mobile_desktop {
+    display: none;
+}
+
 /* NAVBAR_QISMI */
 .nav {
     height: 50px;
@@ -81,10 +89,11 @@ a {
 }
 
 .nav_link,
-.footer_link {
+.footer_link,
+.mobile_desktop_link {
     font-family: var(--mr);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 100%;
     color: var(--dark);
     opacity: 0.9;
@@ -95,10 +104,12 @@ a {
 }
 
 
-.nav_right {
+.nav_right,
+.nav_mobile_right {
     display: flex;
     gap: 45px;
     align-items: center;
+    transition: 0.5s;
 }
 
 .nav_right_lng {

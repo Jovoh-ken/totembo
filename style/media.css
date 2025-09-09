@@ -1,0 +1,220 @@
+/* EKRAN_1296 */
+
+@media (max-width:1296px) {
+
+    /* NAVBAR_QISMI */
+    .nav {
+        height: 45px;
+        margin-top: 25px;
+        padding: 0 15px;
+    }
+
+    .nav_left,
+    .nav_right,
+    .nav_list {
+        gap: 30px;
+
+    }
+
+    .nav_logo,
+    .footer_logo {
+        font-size: 30px;
+    }
+
+    .nav_link,
+    .footer_link {
+        font-size: 17px;
+    }
+
+    .nav_right_lng {
+        font-size: 19px;
+    }
+
+    .nav_right img {
+        width: 22px;
+    }
+
+
+}
+
+
+/* EKRAN-1111 */
+
+@media (max-width:1111px) {
+
+    /* NAVBAR_QISMI */
+    .nav {
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .nav_left,
+    .nav_right,
+    .nav_list {
+        gap: 23px;
+
+    }
+
+    .nav_logo,
+    .footer_logo {
+        font-size: 27px;
+    }
+
+    .nav_link,
+    .footer_link {
+        font-size: 15px;
+    }
+
+    .nav_right_lng {
+        font-size: 17px;
+    }
+
+    .nav_right img {
+        width: 20px;
+    }
+
+
+}
+
+
+/* EKRAN-930 */
+
+@media (max-width:930px) {
+
+    /* NAVBAR_QISMI */
+    .nav {
+        margin-top: 18px;
+    }
+
+    .nav_left,
+    .nav_right,
+    .nav_list {
+        gap: 15px;
+
+    }
+
+    .nav_logo,
+    .footer_logo {
+        font-size: 26px;
+    }
+
+    .nav_link,
+    .footer_link {
+        font-size: 14px;
+    }
+
+    .nav_right_lng {
+        font-size: 16px;
+    }
+
+    .nav_right img {
+        width: 19px;
+    }
+
+
+}
+
+/* EKRAN-850 */
+@media (max-width:850px) {
+
+    /* NAVBAR_QISMI */
+    .nav {
+        margin-top: 15px;
+    }
+
+    .nav_mobile_right {
+        gap: 15px;
+    }
+
+    .nav_logo,
+    .footer_logo {
+        font-size: 26px;
+    }
+
+    .nav_link,
+    .footer_link {
+        font-size: 14px;
+    }
+
+    .nav_right_lng {
+        font-size: 20px;
+    }
+
+    .nav_mobile_right img {
+        width: 20px;
+    }
+
+    .nav_list,
+    .nav_right {
+        display: none;
+    }
+
+    /* MOBILE_DESTKOP */
+    .nav_box ul:nth-of-type(2) {
+        display: flex;
+    }
+
+    .mobile_desktop {
+        width: 100%;
+     background: rgba(0, 0, 0, 0.6); /* qora yarim shaffof */
+      backdrop-filter: blur(12px); /* orqa fonni hira qiladi */
+      -webkit-backdrop-filter: blur(12px);
+        justify-content: space-between;
+        padding: 10px 15px;
+        z-index: 99;
+        position: fixed;
+        display: flex;
+        bottom: 0;
+        border-radius: 20px 20px 0 0;
+        left: 0;
+        transition: 0.5s;
+    }
+
+    .mobile_desktop_link {
+        opacity: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        font-size: 14px;
+        line-height: 90%;
+        text-transform: uppercase;
+        font-weight: 550;
+        color: rgb(255, 253, 253);
+    }
+
+    .mobile_desktop_link img {
+        width: 30px;
+        filter: brightness(0) invert(1);
+    }
+
+}
+
+/* EKRAN-500 */
+@media (max-width:500px) {
+
+    /* NAVBAR_QISMI */
+    .nav {
+        margin-top: 10px;
+    }
+
+    .nav_mobile_right {
+        gap: 10px;
+    }
+
+    .nav_logo,
+    .footer_logo {
+        font-size: 23px;
+    }
+
+    /* MOBILE_DESTKOP */
+    .mobile_desktop_link {
+        font-size: 10px;
+        line-height: 80%;
+    }
+
+    .mobile_desktop_link img {
+        width: 26px;
+    }
+
+}
