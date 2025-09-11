@@ -481,11 +481,9 @@
           .watch_section_2 {
         height: 70px;
     }
-
     .section_text {
         font-size: 10px;
     }
-
     .section_title,
     .box2 h1 {
         font-size: 11px;
@@ -493,5 +491,15 @@
     .text_watch_1{
         gap: 10px;
     }
-
+}
+@media (max-width:360px) {
+        .section_box,
+    .box2 {
+        width: 310px;
+        height: 150px;
+        gap: 8px;
+    }
+    .section_box:nth-child(2){
+        padding-left: 50px;
+    }
 }
