@@ -300,28 +300,16 @@
         font-size: 28px;
         margin: 20px 0;
     }
+
+
     .sale_box_tx {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
+        gap: 15px;
+    }
 
-.sale_box_tx_text {
-    font-family: var(--mr);
-    font-size: 20px;
-    line-height: 100%;
-    color: var(--dark);
-}
-
-.sale_box_tx_title {
-    font-family: var(--mb);
-    font-size: 20px;
-    line-height: 100%;
-    color: rgba(0, 0, 0, 1);
-    text-transform: uppercase;
-}
-
+    .sale_box_tx_text,
+    .sale_box_tx_title {
+        font-size: 19px;
+    }
 
 }
 
@@ -424,8 +412,7 @@
         height: 90px;
     }
 
-    .section_text,
-    .catalog_sale .section_text {
+    .section_text {
         font-size: 11px;
     }
 
@@ -434,10 +421,14 @@
         font-size: 12px;
     }
 
-    .catalog_sale {
+    /* msananananana */
+    .catalog_sale,
+    .sale_on span {
         font-size: 18px;
         width: 90px;
         height: 40px;
+        top: 10px;
+        left: 10px;
     }
 
     /* SALE_QISMI */
@@ -453,8 +444,8 @@
     }
 
     .sale_box {
-        width: 390px;
-        height: 390px;
+        width: 350px;
+        height: 350px;
     }
 
     .title {
@@ -462,10 +453,32 @@
         margin: 20px 0;
     }
 
+    .sale_on_box_img {
+        border-radius: 10px;
+        padding: 13px 13px;
+    }
+
+    .sale_box_img {
+        width: 160px;
+    }
+
+    .sale_box_tx {
+        gap: 15px;
+    }
+
+    .sale_box_tx_text,
+    .sale_box_tx_title {
+        font-size: 18px;
+    }
+
+    .sale_on_right {
+        top: 10px;
+        right: 10px;
+    }
 
 }
 
-/* 715 EKRAN */
+/* 750 EKRAN */
 @media (max-width:750px) {
 
     .section_box,
@@ -475,7 +488,46 @@
         gap: 10px;
     }
 
+    /* SALE_QISMI */
+
+    .sales_catalog {
+        gap: 20px;
+    }
+
+    .sale_box {
+        width: 300px;
+        height: 300px;
+    }
+
+    .title {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .sale_on_box_img {
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .sale_box_img {
+        width: 130px;
+    }
+
+    .sale_box_tx {
+        gap: 10px;
+    }
+
+    .sale_box_tx_text,
+    .sale_box_tx_title {
+        font-size: 16px;
+    }
 }
+
+
+
+
+
+
 
 /* EKRAN-640 */
 @media (max-width:640px) {
@@ -505,12 +557,53 @@
         font-size: 12px;
     }
 
-    .catalog_sale {
+    .catalog_sale,
+    .sale_on span {
         font-size: 17px;
         width: 80px;
         height: 40px;
     }
 
+    /* SALE_QISMI */
+
+    .sales_catalog {
+        gap: 20px;
+    }
+
+    .sale_box {
+        width: 260px;
+        height: 240px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .sale_on_box_img {
+        border-radius: 7px;
+        padding: 8px 8px;
+
+    }
+
+    .sale_box_img {
+        width: 100px;
+    }
+
+    .sale_box_tx {
+        gap: 7px;
+    }
+
+    .sale_box_tx_text,
+    .sale_box_tx_title {
+        font-size: 14px;
+    }
+
+    .sale_on_right {
+        right: 10px;
+        top: 10px;
+        gap: 10px;
+    }
 }
 
 /* EKRAN-580 */
@@ -523,10 +616,47 @@
         gap: 10px;
     }
 
-    .catalog_sale {
+    .catalog_sale,
+    .sale_on span {
+        top: 7px;
+        left: 7px;
         font-size: 15px;
         width: 70px;
         height: 35px;
+    }
+
+    /* SALE_QISMI */
+
+    .sale_box {
+        width: 225px;
+        height: 240px;
+    }
+
+    .title {
+        font-size: 19px;
+        margin: 30px 0;
+    }
+
+    .sale_on_box_img {
+        border-radius: 5px;
+        padding: 7px 7px;
+
+    }
+
+    .sale_box_img {
+        width: 90px;
+    }
+
+
+    .sale_box_tx_text,
+    .sale_box_tx_title {
+        font-size: 13px;
+    }
+
+    .sale_on_right {
+        right: 7px;
+        top: 7px;
+        gap: 7px;
     }
 
 }
@@ -575,7 +705,7 @@
         gap: 8px;
     }
 
-    .catalog_sale {
+    .catalog_sale .sale_on span {
         font-size: 14px;
         width: 60px;
         height: 30px;
@@ -583,8 +713,56 @@
         top: 15px;
     }
 
+    /* SALE_QISMI */
+
+    .sale_box {
+        width: 190px;
+        height: 220px;
+    }
+
+    .title {
+        font-size: 17px;
+        margin: 20px 0;
+    }
+
+    .sale_on_box_img {
+        border-radius: 5px;
+        padding: 5px 5px;
+        width: 29px;
+    }
+
+    .sale_box_img {
+        width: 80px;
+    }
+
+
+    .sale_box_tx_text,
+    .sale_box_tx_title {
+        font-size: 11px;
+    }
+
+    .sale_on_right {
+        right: 10px;
+        top: 10px;
+        gap: 5px;
+    }
+  .catalog_sale,
+    .sale_on span {
+        font-size: 10px;
+        width: 50px;
+        height: 25px;
+        top: 10px;
+        left: 10px;
+        border-radius: 5px;
+    }
 
 }
+
+
+
+
+
+
 
 /* EKRAN-420PX */
 
