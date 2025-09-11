@@ -52,6 +52,21 @@
         height: 530px;
     }
 
+    /* SALE_QISMI */
+    .sales {
+        margin: 50px 0;
+    }
+
+    .sales_catalog {
+        margin-top: 40px;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .sale_box {
+        width: 390px;
+        height: 460px;
+    }
 
 }
 
@@ -100,6 +115,25 @@
         font-size: 20px;
         width: 100px;
         height: 40px;
+    }
+
+    /* SALE_QISMI */
+    .sales {
+        margin: 40px 0;
+    }
+
+    .sales_catalog {
+        margin-top: 30px;
+        gap: 40px;
+        padding: 0 50px;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .sale_box {
+        width: 500px;
+        height: 500px;
     }
 
 
@@ -157,6 +191,23 @@
         width: 430px;
         height: 250px;
         gap: 20px;
+    }
+
+    /* SALE_QISMI */
+    .sales {
+        margin: 35px 0;
+    }
+
+    .sales_catalog {
+        margin-top: 20px;
+        gap: 35px;
+        padding: 0 40px;
+
+    }
+
+    .sale_box {
+        width: 430px;
+        height: 430px;
     }
 
 }
@@ -227,6 +278,49 @@
     .box2 h1 {
         font-size: 13px;
     }
+
+    /* SALE_QISMI */
+    .sales {
+        margin: 30px 0;
+    }
+
+    .sales_catalog {
+        margin-top: 20px;
+        gap: 30px;
+        padding: 0 30px;
+
+    }
+
+    .sale_box {
+        width: 390px;
+        height: 390px;
+    }
+
+    .title {
+        font-size: 28px;
+        margin: 20px 0;
+    }
+    .sale_box_tx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sale_box_tx_text {
+    font-family: var(--mr);
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--dark);
+}
+
+.sale_box_tx_title {
+    font-family: var(--mb);
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+}
 
 
 }
@@ -312,7 +406,7 @@
 
     .section_box,
     .box2 {
-        width: 700px;
+        width: 750px;
         height: 200px;
         gap: 10px;
     }
@@ -346,11 +440,34 @@
         height: 40px;
     }
 
+    /* SALE_QISMI */
+    .sales {
+        margin: 10px 0;
+    }
+
+    .sales_catalog {
+        margin-top: 20px;
+        gap: 30px;
+        padding: 0 30px;
+
+    }
+
+    .sale_box {
+        width: 390px;
+        height: 390px;
+    }
+
+    .title {
+        font-size: 28px;
+        margin: 20px 0;
+    }
+
 
 }
 
 /* 715 EKRAN */
 @media (max-width:750px) {
+
     .section_box,
     .box2 {
         width: 600px;
@@ -398,13 +515,14 @@
 
 /* EKRAN-580 */
 @media (max-width:580px) {
-    
+
     .section_box,
     .box2 {
         width: 470px;
         height: 180px;
         gap: 10px;
     }
+
     .catalog_sale {
         font-size: 15px;
         width: 70px;
@@ -448,13 +566,15 @@
     .mobile_desktop_link img {
         width: 26px;
     }
-/* SECTION_QISMI */
-   .section_box,
+
+    /* SECTION_QISMI */
+    .section_box,
     .box2 {
         width: 400px;
         height: 170px;
         gap: 8px;
     }
+
     .catalog_sale {
         font-size: 14px;
         width: 60px;
@@ -469,37 +589,45 @@
 /* EKRAN-420PX */
 
 @media (max-width:420px) {
-    .section{
+    .section {
         margin-top: 15px;
     }
-     .section_box,
+
+    .section_box,
     .box2 {
         width: 370px;
         height: 150px;
         gap: 8px;
     }
-          .watch_section_2 {
+
+    .watch_section_2 {
         height: 70px;
     }
+
     .section_text {
         font-size: 10px;
     }
+
     .section_title,
     .box2 h1 {
         font-size: 11px;
     }
-    .text_watch_1{
+
+    .text_watch_1 {
         gap: 10px;
     }
 }
+
 @media (max-width:360px) {
-        .section_box,
+
+    .section_box,
     .box2 {
         width: 310px;
         height: 150px;
         gap: 8px;
     }
-    .section_box:nth-child(2){
+
+    .section_box:nth-child(2) {
         padding-left: 50px;
     }
 }
