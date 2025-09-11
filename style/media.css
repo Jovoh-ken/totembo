@@ -463,15 +463,18 @@
         top: 15px;
     }
 
-    
+
 }
 
 /* EKRAN-420PX */
 
 @media (max-width:420px) {
+    .section{
+        margin-top: 15px;
+    }
      .section_box,
     .box2 {
-        width: 300px;
+        width: 345px;
         height: 150px;
         gap: 8px;
     }
