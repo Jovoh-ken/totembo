@@ -34,6 +34,74 @@
         width: 22px;
     }
 
+    /* MAIN_QISMI */
+    .section {
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .section_box {
+        width: 480px;
+        height: 250px;
+        gap: 20px;
+    }
+
+    .box2 {
+        gap: 20px;
+        width: 700px;
+        height: 530px;
+    }
+
+
+}
+
+@media (max-width:1250px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section_left {
+        flex-direction: row;
+
+    }
+
+    .box2 {
+        gap: 20px;
+        width: 990px;
+        height: 450px;
+    }
+
+    .section_box {
+        width: 480px;
+        height: 250px;
+        gap: 20px;
+    }
+
+    .section_box:nth-child(2) {
+        padding-left: 80px;
+    }
+
+    .watch_section {
+        height: 140px;
+    }
+
+    .section_text {
+        font-size: 13px;
+    }
+
+    .section_title {
+        font-size: 14px;
+    }
+
+    .catalog_sale {
+        border-radius: 8px;
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+    }
+
 
 }
 
@@ -73,6 +141,23 @@
         width: 20px;
     }
 
+    /* SECTION_QISMI */
+    .section_left {
+        justify-content: space-between;
+
+    }
+
+    .box2 {
+        gap: 20px;
+        width: 890px;
+        height: 400px;
+    }
+
+    .section_box {
+        width: 430px;
+        height: 250px;
+        gap: 20px;
+    }
 
 }
 
@@ -111,6 +196,38 @@
         width: 19px;
     }
 
+    /* SECTION_QISMI */
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section_left {
+        flex-direction: column;
+
+    }
+
+    .section_box,
+    .box2 {
+        width: 750px;
+        height: 250px;
+        gap: 20px;
+    }
+
+    .watch_section {
+        height: 170px;
+    }
+
+    .section_text {
+        font-size: 12px;
+    }
+
+    .section_title,
+    .box2 h1 {
+        font-size: 13px;
+    }
+
 
 }
 
@@ -137,7 +254,8 @@
     }
 
     .nav_right_lng {
-        font-size: 20px;
+        font-size: 17px;
+        padding-bottom: 4px;
     }
 
     .nav_mobile_right img {
@@ -158,9 +276,9 @@
         width: 100%;
         background: rgba(0, 0, 0, 0.6);
         /* qora yarim shaffof */
-        backdrop-filter: blur(12px);
+        backdrop-filter: blur(5px);
         /* orqa fonni hira qiladi */
-        -webkit-backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(50px);
         justify-content: space-between;
         padding: 10px 15px;
         z-index: 99;
@@ -190,6 +308,82 @@
         filter: brightness(0) invert(1);
     }
 
+    /* SECTION_QISMI */
+
+    .section_box,
+    .box2 {
+        width: 600px;
+        height: 200px;
+        gap: 10px;
+    }
+
+    .section_box:nth-child(2) {
+        padding-left: 0;
+    }
+
+    .watch_section_2,
+    .watch_section {
+        height: 100px;
+    }
+
+    .watch_section_2 {
+        height: 90px;
+    }
+
+    .section_text,
+    .catalog_sale .section_text {
+        font-size: 11px;
+    }
+
+    .section_title,
+    .box2 h1 {
+        font-size: 12px;
+    }
+
+    .catalog_sale {
+        font-size: 18px;
+        width: 90px;
+        height: 40px;
+    }
+
+
+}
+
+/* EKRAN-640 */
+@media (max-width:640px) {
+
+    .section_box,
+    .box2 {
+        width: 500px;
+        height: 190px;
+        gap: 10px;
+    }
+
+    .watch_section_2,
+    .watch_section {
+        height: 100px;
+    }
+
+    .watch_section_2 {
+        height: 90px;
+    }
+
+    .section_text,
+    .catalog_sale .section_text {
+        font-size: 11px;
+    }
+
+    .section_title,
+    .box2 h1 {
+        font-size: 12px;
+    }
+
+    .catalog_sale {
+        font-size: 18px;
+        width: 90px;
+        height: 40px;
+    }
+
 }
 
 /* EKRAN-500 */
@@ -211,7 +405,7 @@
 
     .nav_right_lng {
         font-size: 14px;
-       padding-bottom: 3px;
+        padding-bottom: 3px;
     }
 
     .nav_mobile_right img {
@@ -227,5 +421,6 @@
     .mobile_desktop_link img {
         width: 26px;
     }
+
 
 }

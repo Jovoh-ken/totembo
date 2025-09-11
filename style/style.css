@@ -41,7 +41,7 @@ a {
     padding-bottom: 30px;
 }
 
-.nav_box ul:nth-of-type(2){
+.nav_box ul:nth-of-type(2) {
     display: none;
 }
 
@@ -136,17 +136,18 @@ a {
 
 /* MAIN_QISMI */
 .section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 40px;
-
 }
 
-.section_box:nth-child(2) {
-    grid-row: span 2;
+.section_left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+
 
 .section_box {
     background-color: rgba(225, 225, 225, 1);
@@ -161,25 +162,34 @@ a {
     box-shadow: 6px 6px 15px 0px rgba(132, 132, 132, 0.3);
 }
 
+.section_box:nth-child(2) {
+    padding-left: 50px;
+    gap: 10px;
+}
 
-.section_box:hover .catalog_sale {
+.box2 {
+    background-color: rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px 0px rgba(132, 132, 132, 0.3);
+    position: relative;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 746px;
+    height: 610px;
+}
+
+.section_box:hover .catalog_sale,
+.box2:hover .catalog_sale {
     background-color: black;
     transition: 0.5s;
     transform: scale(1.1);
 }
 
-.box2 {
-    height: 100%;
-    width: 735px;
-}
 
 .box2 h1 {
     font-size: 22px;
-}
-
-.section_box:nth-child(3) {
-    padding-left: 60px;
-    gap: 10px;
 }
 
 .watch_section {
