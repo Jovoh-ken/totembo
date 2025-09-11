@@ -311,6 +311,9 @@
         font-size: 19px;
     }
 
+    .catalog_sales_bottom_title {
+        font-size: 28px;
+    }
 }
 
 /* EKRAN-850 */
@@ -476,6 +479,9 @@
         right: 10px;
     }
 
+    .catalog_sales_bottom_title {
+        font-size: 25px;
+    }
 }
 
 /* 750 EKRAN */
@@ -520,6 +526,10 @@
     .sale_box_tx_text,
     .sale_box_tx_title {
         font-size: 16px;
+    }
+
+    .catalog_sales_bottom_title {
+        font-size: 22px;
     }
 }
 
@@ -604,6 +614,10 @@
         top: 10px;
         gap: 10px;
     }
+
+    .catalog_sales_bottom_title {
+        font-size: 20px;
+    }
 }
 
 /* EKRAN-580 */
@@ -658,7 +672,9 @@
         top: 7px;
         gap: 7px;
     }
-
+  .catalog_sales_bottom_title {
+        font-size: 18px;
+    }
 }
 
 /* EKRAN-500 */
@@ -746,7 +762,8 @@
         top: 10px;
         gap: 5px;
     }
-  .catalog_sale,
+
+    .catalog_sale,
     .sale_on span {
         font-size: 10px;
         width: 50px;
@@ -755,7 +772,8 @@
         left: 10px;
         border-radius: 5px;
     }
-
+.catalog_sales_bottom_title {
+        font-size: 16px;    }
 }
 
 
@@ -794,9 +812,49 @@
     .text_watch_1 {
         gap: 10px;
     }
+
+
+    /* SALE_QISMI */
+
+    .sale_box {
+        width: 170px;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 15px;
+        margin: 15px 0;
+    }
+
+    .sale_on_box_img {
+        border-radius: 5px;
+        padding: 5px 5px;
+        width: 26px;
+    }
+
+    .sale_box_img {
+        width: 70px;
+    }
+
+
+    .sale_box_tx_text,
+    .sale_box_tx_title {
+        font-size: 11px;
+    }
+
+    .sale_on_right {
+        right: 10px;
+        top: 10px;
+        gap: 5px;
+    }
+.catalog_sales_bottom_title {
+        font-size: 15px;
+        margin-top: 20px;
+    }
 }
 
-@media (max-width:360px) {
+
+@media (max-width:370px) {
 
     .section_box,
     .box2 {
@@ -807,5 +865,49 @@
 
     .section_box:nth-child(2) {
         padding-left: 50px;
+    }
+
+    /* SALE_QISMI */
+
+    .sale_box {
+        width: 145px;
+        height: 170px;
+    }
+
+    .title {
+        font-size: 13px;
+        margin: 20px 0;
+    }
+
+    .sale_on_box_img {
+        border-radius: 5px;
+        padding: 5px 5px;
+        width: 25px;
+    }
+
+    .sale_box_img {
+        width: 60px;
+    }
+
+
+    .sale_box_tx_text,
+    .sale_box_tx_title {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .sale_on_right {
+        right: 10px;
+        top: 10px;
+        gap: 5px;
+    }
+
+    .catalog_sale,
+    .sale_on span {
+        font-size: 9px;
+        width: 40px;
+        top: 10px;
+        left: 10px;
+        border-radius: 4px;
     }
 }
