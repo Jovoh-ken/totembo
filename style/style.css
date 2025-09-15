@@ -39,7 +39,7 @@ a {
     border-bottom: 2px solid var(--dark);
     text-align: center;
     padding-bottom: 10px;
-  margin: 30px 0;
+    margin: 30px 0;
 }
 
 .nav_box ul:nth-of-type(2) {
@@ -247,7 +247,7 @@ a {
 
 /* SALES_QISMI */
 .sales {
-   margin: 60px 0;
+    margin: 60px 0;
 }
 
 .sales_catalog {
@@ -364,7 +364,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-
+    border-radius: 10px;
 }
 
 .news_box_left_box {
