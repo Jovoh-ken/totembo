@@ -1,5 +1,4 @@
 /* EKRAN_1296 */
-
 @media (max-width:1296px) {
 
     /* NAVBAR_QISMI */
@@ -181,6 +180,7 @@
         margin-top: 30px;
         gap: 10px;
     }
+
     .news_box_left_box_title {
         font-size: 19px;
     }
@@ -190,15 +190,13 @@
     }
 
     .news_box_left span {
-        font-size: 18px;    
+        font-size: 18px;
     }
 
 
 }
 
-
 /* EKRAN-1111 */
-
 @media (max-width:1111px) {
 
     /* NAVBAR_QISMI */
@@ -266,6 +264,7 @@
         width: 430px;
         height: 430px;
     }
+
     /* NEWS_QISMI */
     .news_box_left {
         height: 400px;
@@ -297,9 +296,45 @@
 
 }
 
+/* EKRAN_1040px */
+@media (max-width:1040px) {
+
+    /* NEWS_QISMI */
+    .news_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news_box_left {
+        height: 450px;
+    }
+
+    .news_box_left_box {
+        gap: 20px;
+    }
+
+    .news_box_left_box_title {
+        font-size: 19px;
+    }
+
+    .news_box_left_box_text {
+        font-size: 17px;
+    }
+
+    .news_box_left span {
+        font-size: 19px;
+        top: 15px;
+        left: 15px;
+        width: 140px;
+        height: 50px;
+    }
+
+    .news_left_ul {
+        font-size: 16px;
+    }
+}
 
 /* EKRAN-930 */
-
 @media (max-width:930px) {
 
     /* NAVBAR_QISMI */
@@ -398,35 +433,10 @@
 
     .catalog_sales_bottom_title {
         font-size: 28px;
-    }
-      /* NEWS_QISMI */
-    .news_box_left {
-        height: 400px;
+        margin-bottom: 90px;
     }
 
-    .news_box_left_box {
-        gap: 20px;
-    }
 
-    .news_box_left_box_title {
-        font-size: 18px;
-    }
-
-    .news_box_left_box_text {
-        font-size: 15px;
-    }
-
-    .news_box_left span {
-        font-size: 18px;
-        top: 15px;
-        left: 15px;
-        width: 140px;
-        height: 50px;
-    }
-
-    .news_left_ul {
-        font-size: 14px;
-    }
 }
 
 /* EKRAN-850 */
@@ -594,6 +604,7 @@
 
     .catalog_sales_bottom_title {
         font-size: 25px;
+        margin-bottom: 80px;
     }
 }
 
@@ -643,14 +654,10 @@
 
     .catalog_sales_bottom_title {
         font-size: 22px;
+        margin-bottom: 60px;
     }
+
 }
-
-
-
-
-
-
 
 /* EKRAN-640 */
 @media (max-width:640px) {
@@ -730,6 +737,38 @@
 
     .catalog_sales_bottom_title {
         font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    /* NEWS_QISMI */
+    .news_box_left {
+        height: 350px;
+        width: 550px;
+    }
+
+    .news_box_left_box {
+        margin-top: none;
+    }
+
+    .news_box_left_box_title {
+        font-size: 17px;
+    }
+
+    .news_box_left_box_text {
+        font-size: 15px;
+    }
+
+    .news_box_left span {
+        font-size: 16px;
+        top: 20px;
+        left: 20px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .news_left_ul {
+        font-size: 16px;
+        margin-top: 10px;
     }
 }
 
@@ -788,6 +827,41 @@
 
     .catalog_sales_bottom_title {
         font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    /* NEWS_QISMI */
+    .news_box_left {
+        height: 300px;
+        width: 480px;
+    }
+
+    .news_box_left_box {
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .news_box_left_box_title {
+        font-size: 17px;
+    }
+
+    .news_box_left_box_text {
+        font-size: 13px;
+    }
+
+    .news_box_left span {
+        border-radius: 5px;
+        font-size: 14px;
+        top: 20px;
+        left: 20px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .news_left_ul {
+        font-size: 15px;
+        margin-top: 10px;
     }
 }
 
@@ -889,17 +963,50 @@
 
     .catalog_sales_bottom_title {
         font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /* NEWS_QISMI */
+    .news_box {
+        padding: 0;
+    }
+
+    .news_box_left {
+        height: 250px;
+        width: 400px;
+    }
+
+    .news_box_left_box {
+        gap: 10px;
+    }
+
+    .news_box_left_box_title {
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .news_box_left_box_text {
+        font-size: 11px;
+        width: 400px;
+    }
+
+    .news_box_left span {
+        border-radius: 5px;
+        font-size: 13px;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 30px;
+    }
+
+    .news_left_ul {
+        font-size: 13px;
+        margin-top: 10px;
     }
 }
 
 
-
-
-
-
-
 /* EKRAN-420PX */
-
 @media (max-width:420px) {
     .section {
         margin-top: 30px;
@@ -968,9 +1075,40 @@
         font-size: 15px;
         margin-top: 20px;
     }
+
+    /* NEWS_QISMI */
+    .news_box_left {
+        height: 240px;
+        width: 350px;
+    }
+
+    .news_box_left_box_title {
+        font-size: 14px;
+        width: 330px;
+    }
+
+    .news_box_left_box_text {
+        font-size: 12px;
+        width: 330px;
+    }
+
+    .news_box_left span {
+        border-radius: 5px;
+        font-size: 13px;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 30px;
+    }
+
+    .news_left_ul {
+        font-size: 13px;
+        margin-top: 10px;
+    text-align: center;
+    }
 }
 
-
+/* EKRAN-370px */
 @media (max-width:370px) {
 
     .section_box,
